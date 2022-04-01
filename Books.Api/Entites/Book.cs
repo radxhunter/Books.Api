@@ -18,7 +18,6 @@ namespace Books.Api.Entites
         [MaxLength(150)]
         public string Title { get; set; }
 
-        [Required]
         [MaxLength(2500)]
         public string Description { get; set; }
 
